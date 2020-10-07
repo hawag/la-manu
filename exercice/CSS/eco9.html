@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style9.css">
+        <title>Exercice css partie 2</title>
+        <meta name="description" content="Ma description personnalisée">
+</head>
+<body>
+    <h1>Exercice 9 FORMULAIRE</h1>
+<form action="adresse.php"></form>
+
+    
+        <fieldset id="premier">
+            <legend>Votre identité</legend>
+    <form method="post"action="traitement.php">
+        <label for="Nom">1.Nom:</label>
+        <input type="text" name="pseudo" placeholder="Nom"><br>
+        <label for="Prenom">2.Prénom:</label>
+        <input type="text" placeholder="Prénom"><br>
+        <label for="mail">3. Adresse mail:</label>
+        <input type="text" placeholder="Mail">
+    </fieldset>
+
+    
+    
+        <fieldset id="deuxieme">
+        <legend>Adresse de livraison</legend>
+            <label for="Adresse">1. Adresse:</label>
+        <textarea name="Adresse" id="Adresse" placeholder="Adresse"></textarea>
+        <br>
+            <label for="CP">2. Code Postal</label>
+        <input type="text" placeholder="Code postal"><br>
+            <label for="Ville">3. Ville</label>
+        <input type="text" placeholder="Ville">
+    </fieldset>
+
+    
+    
+    <fieldset id="troisieme">
+    <legend>Informations de réglement</legend>
+        <label for="CB">1. Type de carte bancaire:</label>
+    <input for="text" placeholder="Carte"><br>
+        <label for="text">2. Numéro de carte:</label>
+    <input type="text" placeholder="numéro"><br>
+            <label for="text">3. Code de sécurité:</label>
+    <input type="text" placeholder="Code"><br>
+            <label for="text">4. Nom de titulaire</label>
+    <input type="text" placeholder="Titulaire"><br>
+    </fieldset>    
+</body>
+    </html>
