@@ -1,0 +1,50 @@
+header
+{background-image: url('../images/header.jpg');
+background-size: cover;
+height: 368px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace ;}
+
+nav
+{background-color: khaki;
+    border:1px solid khaki;
+}
+
+ul
+{list-style-type: none;
+display: flex;
+justify-content: space-around;
+font-size: 25px;}
+
+a
+{text-decoration: none;
+color: black;}
+
+#conteneur
+{background-color:khaki;
+align-items: center;
+display: flex;
+justify-content: center;
+width: 50%;
+height: 70px;
+margin-left: auto;
+margin-right: auto;
+border: 20px solid white;}
+
+
+#agencement
+{display: flex;
+justify-content: space-around ;}
+
+@media screen and ha (max-widht:480px)
+{
+    
+}
+
+
+
+
+

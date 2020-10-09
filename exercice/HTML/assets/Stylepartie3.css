@@ -1,0 +1,8 @@
+.voyage
+{text-align: center;
+font-family: 'Times New Roman', Times, serif;}
+
+header
+{background-image: url(..jpg/css/header.jpg.jpg);
+background-size: cover;
+background-attachment: fixed;}
