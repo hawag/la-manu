@@ -1,5 +1,5 @@
 header
-{background-image: url('../images/header.jpg');
+{background-image: url("../css/header.jpg.jpg");
 background-size: cover;
 height: 368px;
 display: flex;
@@ -10,14 +10,23 @@ font-family: 'Courier New', Courier, monospace ;}
 
 nav
 {background-color: khaki;
-    border:1px solid khaki;
+border:1px solid khaki;
+width: 100%;
 }
+
+#navIcon 
+{display: none;}
+
+li
+{border: 0px}
 
 ul
 {list-style-type: none;
 display: flex;
 justify-content: space-around;
-font-size: 25px;}
+font-size: 25px;
+border: 0px solid black;
+margin: 0px;}
 
 a
 {text-decoration: none;
@@ -25,24 +34,53 @@ color: black;}
 
 #conteneur
 {background-color:khaki;
-align-items: center;
+text-align: center;
 display: flex;
 justify-content: center;
 width: 50%;
-height: 70px;
 margin-left: auto;
 margin-right: auto;
-border: 20px solid white;}
+border: 20px solid white;
+box-shadow: 3px 3px 3px 3px burlywood;}
+
+img
+{width: 75%;}
+
+p{text-align: justify;}
 
 
 #agencement
 {display: flex;
-justify-content: space-around ;}
-
-@media screen and ha (max-widht:480px)
-{
-    
+margin: 15px 10px;
+text-align: center;
 }
+article{
+border: 0px;
+padding: 10px;
+
+
+}
+
+@media screen and (max-width:900px){
+#agencement 
+{flex-direction: column;}
+
+@media screen and (max-width: 680px)
+{
+    a, form
+    {display : none ;}
+
+        
+
+ #navIcon
+ {display: block;}
+
+
+}
+
+
+
+
 
 
 
