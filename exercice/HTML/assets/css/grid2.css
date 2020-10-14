@@ -1,0 +1,55 @@
+.initial
+{display: grid ;
+grid-template-columns: 200px 200px 200px 200px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-auto-rows: 50px 30px 25px;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+color: white ;}
+
+.une 
+{background-color: rgb(139, 8, 8);
+grid-column: 1;
+grid-row: 1;}
+
+.deux
+{background-color: rgb(58, 192, 179);
+grid-column: 2;
+grid-row: 1;
+}
+
+.trois
+{background-color: teal;
+grid-column: 3;
+grid-row: 1;}
+
+.quatre
+{background-color: rgb(97, 26, 97);
+grid-column: 4;
+grid-row: 1;}
+
+.cinq
+{background-color: orangered;
+grid-column: 1;
+grid-row: 2;}
+
+.six
+{background-color: rgb(72, 125, 185);
+grid-column: 4 ;
+grid-row: 2;}
+
+.sept 
+{background-color: rgb(182, 20, 20);
+grid-row: 3;
+grid-column: 1;}
+
+.huigt
+{background-color: rgb(17, 158, 17);
+grid-column: 3;
+grid-row: 3;}
+
+.neuf 
+{background-color: rgb(83, 83, 172);
+grid-column: 4;
+grid-row: 3;}
+

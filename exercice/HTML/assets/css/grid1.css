@@ -1,0 +1,35 @@
+.initial
+{display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-auto-rows: 50px 50px 50px 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    width: 50%;
+    color: white ;}
+
+.une 
+{background-color: rgb(139, 8, 8);}
+
+.deux
+{background-color: rgb(58, 192, 179);}
+
+.trois
+{background-color: teal;}
+
+.quatre
+{background-color: rgb(97, 26, 97);}
+
+.cinq
+{background-color: orangered;}
+
+.six
+{background-color: rgb(72, 125, 185);}
+
+.sept 
+{background-color: rgb(182, 20, 20);}
+
+.huigt
+{background-color: rgb(17, 158, 17);}
+
+.neuf 
+{background-color: rgb(83, 83, 172);}

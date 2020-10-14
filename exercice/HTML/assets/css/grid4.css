@@ -1,0 +1,84 @@
+.container
+{display: grid;
+width: 400px;
+height: 500px;
+background-color: #bebebe;
+border-right : 1px solid black;
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+.pave
+    {display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px ;
+    row-gap: 1px;}
+
+.pave div
+{border: 0px solid black;
+display: grid ;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+}
+
+.gris
+{background-color: rgb(221, 214, 214);}
+
+.white
+{background-color: white;}
+
+.bleu
+{background-color: rgb(87, 87, 175);}
+
+
+.milieu
+{display : grid ;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+padding: 10px;
+align-items: end;
+}
+
+.mc 
+{color : grey}
+
+.mr 
+{color: grey;}
+
+.mEtoile
+{color: grey;}
+
+
+.resultat
+{display: grid;
+text-align: right;
+justify-self: flex-end;
+align-self: flex-end;
+font-size: 50px;
+padding: 10px;}
+
+.hamburger
+{display: grid;
+padding: 10px;
+grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px ;
+grid-template-areas: "icon1 icon2 . icon3 . . . . . . . icon4" ;}
+
+
+.icon1 {grid-area: icon1;}
+.icon2 {grid-area: icon2;}
+.icon3 {grid-area: icon3;}
+.icon4 {grid-area: icon4;}
+
+
+.calcul {grid-area: calcul;}
+.moins {grid-area: moins;}
+.carre {grid-area: carre;}
+.multi {grid-area: multi;}
+
+
+
+.Calculatrice
+{display: grid;
+padding: 10px;
+grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+grid-template-areas: "calcul . . . . . . . moins carre multi"}
