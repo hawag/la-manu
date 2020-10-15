@@ -1,0 +1,13 @@
+
+.villes
+{display: grid;
+height: 200px ;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-row: 5px;
+grid-gap: 3px;
+width: 100%;}
+
+img{width: 100%;
+height: 200px;}
+
+
